@@ -799,8 +799,7 @@ function get_user_avatar($avatar, $avatar_type, $avatar_width, $avatar_height, $
 			{
 				return '';
 			}
-			//$avatar_img = $phpbb_root_path . "download/file.$phpEx?avatar=";
-			$avatar_img = $phpbb_root_path . $image_dir . '/' . $prefix . $file;
+			$avatar_img = $phpbb_root_path . "download/file.$phpEx?avatar=";
 		break;
 
 		case AVATAR_GALLERY:
